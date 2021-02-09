@@ -1,2 +1,54 @@
-<center>Domain Thuộc Quyền Sỡ Hữu Của HungCoder.Com</center>
+<center>Domain Thuộc Quyền Sỡ Hữu Của HungCoder.Com</center><br/>
+<style type="text/css">
+a.bgt-clock-link { text-decoration: none; display: block; outline: none; }
+#TimerDiv { background: transparent;color: #000;text-shadow: 0 0 6px #00cc00;font-family: 'Metamorphous', cursive;font-size: 28px;text-align: center;line-height: normal; }
+.bgt-clock-sep { -moz-animation: sep-blinks 1.1s linear 0s infinite; -webkit-animation: sep-blinks 1.1s linear 0s infinite; animation: sep-blinks 1.1s linear 0s infinite;}
+@-moz-keyframes sep-blinks
+{
+0% {opacity:1}
+50% {opacity:0}
+100% {opacity:1}
+}
+@-webkit-keyframes sep-blinks
+{
+0% {opacity:1}
+50% {opacity:0}
+100% {opacity:1}
+}
+@keyframes sep-blinks
+{
+0% {opacity:1}
+50% {opacity:0}
+100% {opacity:1}
+}
+#bgt-clock-days{color:#00cc00;font-weight:900;}#bgt-clock-hr,#bgt-clock-mins,#bgt-clock-secs{font-family:courier new}#bgt-clock-hr{background:#00cc00;font-weight:700}#bgt-clock-secs{background:#ccc;color:#2aa4cf;}#bgt-clock-mins{background:#2aa4cf;}
+</style>
+<a target="_blank" class="bgt-clock-link" href='https://www.anhtrainang.com/2021/01/share-blogger-template-countdown-happy-new-year.html'>
+<div id="TimerDiv">
+Countdown Till 2021<br /><span id="bgt-clock-days"></span> Days<br /><span id="bgt-clock-hr"></span><span class="bgt-clock-sep"> : </span><span id="bgt-clock-mins"></span><span class="bgt-clock-sep"> : </span><span id="bgt-clock-secs"></span></div>
+</a>
+<script type="text/JavaScript">
+function startTimer() {
+    var newyr=new Date("February 12, 2021 00:00:00");
+    var newyeartime=newyr.getTime();
+    var todaytm=new Date();
+    var todaytime=todaytm.getTime();
+    var timeleft=newyeartime-todaytime;
+    var leftdays = timeleft/86400000;
+    var lefthr=23-todaytm.getHours();
+    var leftmin=59-todaytm.getMinutes();
+    var leftsec=59-todaytm.getSeconds();
+    if (Math.floor(leftdays) <= -1) {
+        document.getElementById('TimerDiv').innerHTML="It's New Years Eve!<br/>Happy New Year 2021";
+    }
+    else {
+        document.getElementById('bgt-clock-days').innerHTML= Math.floor(leftdays);
+        document.getElementById('bgt-clock-hr').innerHTML= lefthr;
+        document.getElementById('bgt-clock-mins').innerHTML= leftmin;
+        document.getElementById('bgt-clock-secs').innerHTML= leftsec;
+    }
+    t=setTimeout('startTimer()',999);
+}
+startTimer();
+</script>
 
