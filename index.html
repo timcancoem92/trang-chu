@@ -1,13 +1,66 @@
-
+<!DOCTYPE html>
+<html>
+  <title>Chuyển Hướng Khỏi Blog</title>
+<head>
 <style>
   .btn{border:1px solid #3498db;background:none;padding:10px 20px;font-size:20px;font-family:"montserrat";cursor:pointer;margin:10px;transition:0.8s;position:relative;overflow:hidden}.btn1,.btn2{color:#3498db}.btn3,.btn4{color:#fff}.btn1:hover,.btn2:hover{color:#fff}.btn3:hover,.btn4:hover{color:#3498db}.btn::before{content:"";position:absolute;left:0;width:100%;height:0%;background:#3498db;z-index:-1;transition:0.8s}.btn1::before,.btn3::before{top:0;border-radius:0 0 50% 50%}.btn2::before,.btn4::before{bottom:0;border-radius:50% 50% 0 0}.btn3::before,.btn4::before{height:180%}.btn1:hover::before,.btn2:hover::before{height:180%}.btn3:hover::before,.btn4:hover::before{height:0%}
+
+body{
+background:black; 
+}
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+ 
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+ 
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+ 
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+    
+nav ul a {
+    text-decoration: none;
+}
+ 
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
 </style>
+</head>
+<body>
+ 
+<div class="container">
+ 
+<header>
+   <h1>Xin chào, Bờm là HÙNG đây! Bạn đang xem trang này vì vừa nhấn vào một liên kết ngoài trong một bài viết trên Blog hoặc được tớ chia sẻ trên Hùng Coder Blog.
 
-
-<aside class="caution" style="background: rgb(255, 243, 224); box-sizing: inherit; color: #dd2c00; font-family: Roboto, sans-serif; font-size: 14px; margin: 16px 0px; padding: 12px 24px 12px 20px;"><strong style="box-sizing: inherit; margin-top: 0px;">Xin chào, <b><span style="background-color: #444444; color: red;">Bờm </span></b>là <b style="background-color: red;"><span style="color: cyan;">HÙNG </span></b>đây! Bạn đang xem trang này vì vừa nhấn vào một liên kết ngoài trong một bài viết trên Blog hoặc được tớ chia sẻ trên <span style="background-color: cyan; color: blue;">Hùng Coder Blog</span>.<br />
-<br />
-Trước khi truy cập trang đích, <b><span style="background-color: lime; color: red;">Hùng </span></b>muốn giới thiệu tới bạn một số thứ hay ho của <b><span style="background-color: blue; color: red;">Hùng </span></b>và <b style="background-color: cyan;">Sys</b> nhé! Nếu bạn đã biết hết rồi hoặc không muốn chờ đợi thêm thì có thể nhấn nút dưới đây để chuyển qua trang đích!<br />
-<br /></strong><span style="box-sizing: inherit; margin-bottom: 0px;">&nbsp;This number only tracks requests that have been logged since DevTools was opened. If other requests occurred before DevTools was opened, those requests aren't counted.</span></aside>
-
+Trước khi truy cập trang đích, Hùng muốn giới thiệu tới bạn một số thứ hay ho của Hùng và Sys nhé! Nếu bạn đã biết hết rồi hoặc không muốn chờ đợi thêm thì có thể nhấn nút dưới đây để chuyển qua trang đích!</h1>
+</header>
 <center><br />
 <a class="btn btn1" href="https://www.hungcoder.com/" id="redirect-btn" rel="noreferrer noopener" target="_blank">Click here to continue!</a><script>((document) => { let h = document.location.hash, $btn = document.querySelector('#redirect-btn'); if (h.length > 0 && h.startsWith('#http')) { try { let url = new URL(decodeURIComponent(h.substr(1))); url.searchParams.set('utm_source', 'hungcoder.com'); $btn.href = url.href; } catch (e) { console.error(e.message); return; } } let i = 0, txt = $btn.textContent; function run() { $btn.textContent = `${txt} (${i})`; if (i > 0) { i--; setTimeout(run, 1000); } else { $btn.textContent = txt; $btn.removeAttribute('disabled'); $btn.classList.remove('disabled'); } } run();})(document);</script><br />
+<br />
+
+<footer>Copyright &copy; 2016 dammio.com</footer>
+ 
+</div>
+ 
+</body>
+</html>
