@@ -1,0 +1,28 @@
+/*
+<Group description="Body">
+  <Variable name="body.background" description="Background" type="background" color="$(body.background.color)" default="$(color) none repeat scroll top left"  value="#ffffff url(#) no-repeat scroll top center /* Credit: Mae Burke (http://www.offset.com/photos/389967) */;"/>
+  <Variable name="body.background.color" description="Background color" type="color" default="transparent"  value="transparent"/>
+  <Variable name="body.title.font.small" description="Title font (small)" type="font" default="$(garamond20)"  value="normal 400 14px Roboto, sans-serif"/>
+  <Variable name="body.title.font.large" description="Title font (large)" type="font" default="$(garamond24)"  value="normal 400 24px Roboto, sans-serif"/>
+  <Variable name="body.title.color" description="Title color" type="color" default="#000"  value="#000000"/>
+  <Variable name="body.action.font.small" description="Action font (small)" type="font" default="$(Roboto12)"  value="normal 400 12px Roboto, sans-serif"/>
+  <Variable name="body.action.font.large" description="Action font (large)" type="font" default="$(Roboto14)"  value="normal 400 14px Roboto, sans-serif"/>
+  <Variable name="body.action.color" description="Action color" type="color" default="#4267b2"  value="#4267b2"/>
+  <Variable name="body.text.font" description="Text font" type="font" default="$(garamond20)"  value="normal 400 14px Roboto, sans-serif"/>
+  <Variable name="body.text.color" description="Text color" type="color" default="#000"  value="#000000"/>
+  <Variable name="body.link.color" description="Link color" type="color" default="#4267b2"  value="#4267b2"/>
+  <Variable name="body.widget.title.font.small" description="Gadget title font (small)" type="font" default="$(Roboto12)"  value="normal 400 12px Roboto, sans-serif"/>
+  <Variable name="body.widget.title.font.large" description="Gadget title font (large)" type="font" default="$(Roboto14)"  value="normal 400 14px Roboto, sans-serif"/>
+  <Variable name="body.widget.title.color" description="Gadget title color" type="color" default="rgba(0, 0, 0, 0.54)"  value="rgba(0, 0, 0, 0.54)"/>
+  <Variable name="body.filter.background.color" description="Filter background color" type="color" default="#302c24"  value="#302c24"/>
+  <Variable name="body.filter.text.font.small" description="Filter text font (small)" type="font" default="$(Roboto12)"  value="normal 400 12px Roboto, sans-serif"/>
+  <Variable name="body.filter.text.font.large" description="Filter text font (large)" type="font" default="$(Roboto14)"  value="normal 400 14px Roboto, sans-serif"/>
+  <Variable name="body.filter.text.color" description="Filter text color" type="color" default="rgba(255, 255, 255, 0.54)"  value="rgba(255, 255, 255, 0.54)"/>
+  <Variable name="body.filter.keyword.font.small" description="Filter keyword font (small)" type="font" default="$(RobotoBold12)"  value="normal 700 12px Roboto, sans-serif"/>
+  <Variable name="body.filter.keyword.font.large" description="Filter keyword font (large)" type="font" default="$(RobotoBold14)"  value="normal 700 14px Roboto, sans-serif"/>
+  <Variable name="body.filter.keyword.color" description="Filter keyword color" type="color" default="rgba(255, 255, 255, 0.87)"  value="rgba(255, 255, 255, 0.87)"/>
+  <Variable name="body.filter.link.font.small" description="Filter link font (small)" type="font" default="$(RobotoBold12)"  value="normal 700 12px Roboto, sans-serif"/>
+  <Variable name="body.filter.link.font.large" description="Filter link font (large)" type="font" default="$(RobotoBold14)"  value="normal 700 14px Roboto, sans-serif"/>
+  <Variable name="body.filter.link.color" description="Filter link color" type="color" default="#4267b2"  value="#4267b2"/>
+</Group>
+*/
