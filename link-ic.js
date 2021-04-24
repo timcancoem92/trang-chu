@@ -11,9 +11,9 @@ function checkLinks() {
             if (in_object(domains, DOMAssistant.$(this).href)) {          
                 if (DOMAssistant.$(this).href.toLowerCase().indexOf("https://www.bomkhung.com/") != 7) {
                     if (redirect == 'int') {
-                        url = "https://www.bomkhung.com/?link="+DOMAssistant.$(this).href;
+                        url = "https://www.bomkhung.com/?t="+DOMAssistant.$(this).href;
                     } else {
-                        url = "https://www.bomkhung.com/?link="+DOMAssistant.$(this).href;
+                        url = "https://www.bomkhung.com/?t="+DOMAssistant.$(this).href;
                     }
                     DOMAssistant.$(this).setAttributes({href : url});
                 }              
@@ -24,9 +24,9 @@ function checkLinks() {
             if (!in_object(exclude_domains, DOMAssistant.$(this).href) && DOMAssistant.$(this).href.substr(0,10) != "javascript") {                      
                 if (DOMAssistant.$(this).href.toLowerCase().indexOf("https://www.bomkhung.com/") != 7) {                              
                     if (redirect == 'int') {
-                        url = "https://www.bomkhung.com/?link="+DOMAssistant.$(this).href;
+                        url = "https://www.bomkhung.com/?t="+DOMAssistant.$(this).href;
                     } else {
-                        url = "https://www.bomkhung.com/?link="+DOMAssistant.$(this).href;
+                        url = "https://www.bomkhung.com/?t="+DOMAssistant.$(this).href;
                     }
                     DOMAssistant.$(this).setAttributes({href : url});                  
                 }
